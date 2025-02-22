@@ -6,9 +6,8 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className={styles.footer}>
-      
-      <p>
+    <footer>
+    <p>
         <sup>&#169; </sup>
         {currentYear} <span className={styles.myName}>Tmrbotz</span>
       </p> 
