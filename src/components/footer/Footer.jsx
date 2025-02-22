@@ -7,13 +7,11 @@ function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.openWeather}>
-        
-      <p className={styles.info}>Designed and Coded by : Tmrbotz</p>
+      
       <p>
         <sup>&#169; </sup>
         {currentYear} <span className={styles.myName}>Tmrbotz</span>
-      </p> </div>
+      </p> 
       </footer>
   );
 }
