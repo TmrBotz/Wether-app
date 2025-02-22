@@ -13,7 +13,7 @@ function Footer() {
       <p>
         <sup>&#169; </sup>
         {currentYear} <span className={styles.myName}>Tmrbotz</span>
-      </p>
+      </p> </div>
       </footer>
   );
 }
