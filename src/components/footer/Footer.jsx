@@ -8,8 +8,7 @@ function Footer() {
   return (
     <footer>
     <p>
-        ©
-        {currentYear} <span className={styles.myName}>Tmrbotz</span>
+        © {currentYear} <span className={styles.myName}>❤️ Tmrbotz</span>
       </p> 
       </footer>
   );
