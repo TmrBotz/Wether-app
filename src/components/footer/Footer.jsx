@@ -7,7 +7,10 @@ function Footer() {
 
   return (
     <footer>
-    <p>Tmrbotz</p> 
+    <p>
+        <sup>&#169; </sup>
+        {currentYear} <span className={styles.myName}>Tmrbotz</span>
+      </p> 
       </footer>
   );
 }
